@@ -13,6 +13,8 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E68B65142D5C8AA1000AE313 /* PDFread */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = PDFread;
 			sourceTree = "<group>";
 		};
@@ -34,6 +36,7 @@
 			children = (
 				E68B65142D5C8AA1000AE313 /* PDFread */,
 				E68B65132D5C8AA1000AE313 /* Products */,
+				F5259E76CD6A7D56C54C8C54 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +46,13 @@
 				E68B65122D5C8AA1000AE313 /* PDFread.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F5259E76CD6A7D56C54C8C54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,8 +74,6 @@
 				E68B65142D5C8AA1000AE313 /* PDFread */,
 			);
 			name = PDFread;
-			packageProductDependencies = (
-			);
 			productName = PDFread;
 			productReference = E68B65122D5C8AA1000AE313 /* PDFread.app */;
 			productType = "com.apple.product-type.application";
@@ -254,6 +262,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PDFread/Preview Content\"";
 				DEVELOPMENT_TEAM = 8SAXL44577;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -283,6 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PDFread/Preview Content\"";
 				DEVELOPMENT_TEAM = 8SAXL44577;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
