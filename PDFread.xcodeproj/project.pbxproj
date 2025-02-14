@@ -11,6 +11,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		E62CC2B52D5F3961009B736F /* AssetsForGit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = AssetsForGit;
+			sourceTree = "<group>";
+		};
 		E68B65142D5C8AA1000AE313 /* PDFread */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -34,6 +41,7 @@
 		E68B65092D5C8AA1000AE313 = {
 			isa = PBXGroup;
 			children = (
+				E62CC2B52D5F3961009B736F /* AssetsForGit */,
 				E68B65142D5C8AA1000AE313 /* PDFread */,
 				E68B65132D5C8AA1000AE313 /* Products */,
 				F5259E76CD6A7D56C54C8C54 /* Pods */,
@@ -71,6 +79,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				E62CC2B52D5F3961009B736F /* AssetsForGit */,
 				E68B65142D5C8AA1000AE313 /* PDFread */,
 			);
 			name = PDFread;
@@ -269,6 +278,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
